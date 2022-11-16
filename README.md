@@ -22,3 +22,5 @@
 **Game Flow and Mechanics:** When the game starts the player will need to find their weapon to equip. The Player must move around the level battling enemies/puzzles in order to make their way to the final boss/treasure. When the time runs out, the player has defeated the bosses and won the treasure, or the player has lost all lives.
 
 # Credits
+* Barking Owl for some of the props and textures.
+* Unity Technologies for the robot player.
