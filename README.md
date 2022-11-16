@@ -1,12 +1,14 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8391427&assignment_repo_type=AssignmentRepo)
+
 # Game Design Brief
 **Title:** Treasure of AgonDray  
 **Genre:** RPG  
 **Platform:** PC/Web  
 **Target Audience:** E for Everyone  
 
-**Game Concept:** A 3D, third-person RPG, in which the player moves around a castle dungeon battling enemies and bosses as they make their way to find stolen treasure.
-Premise: You have awoken to find yourself in a dungeon cell at the bottom of AgonDray castle. You are not sure how you ended up here but there is told that AgonDray holds a forbidden treasure that is guarded by a fire-breathing beast. Lucky for you, the guard has forgotten to lock your cell and you are now journey bound to make your way through the castle dungeon in search of the forbidden treasure.
+**Game Concept:** A 3D, third-person adventure game, in which the player moves around a castle dungeon battling enemies and bosses as they make their way to find stolen treasure. The objective may change in which the player must acquire relics in order to discover the secret behind the dragon's dungeon.
+
+**Premise:** You have awoken to find yourself in a dungeon cell at the bottom of AgonDray castle. You are not sure how you ended up here but there is told that AgonDray holds a forbidden treasure that is guarded by a fire-breathing beast. Lucky for you, the guard has forgotten to lock your cell and you are now journey bound to make your way through the castle dungeon in search of the forbidden treasure.
 
 **Level Details:**
 - 10- room dungeon that consists of square rooms.
