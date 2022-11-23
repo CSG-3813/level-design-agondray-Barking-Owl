@@ -8,7 +8,7 @@
 
 **Game Concept:** A 3D, third-person adventure game, in which the player moves around a castle dungeon battling enemies and bosses as they make their way to find stolen treasure. The objective may change in which the player must acquire relics in order to discover the secret behind the dragon's dungeon.
 
-**Premise:** You are an explorer robot (tentative) and your task is to explore an abandoned cave - what appears to be a dungeon that holds many questions and you must collect the answers by acquiring artifacts. These artifacts will help you not only defeat the guardian of the AgonDray ruins but will also get you out of here, as you find yourself caved in from behind and whatever you have at your disposal alone is not enough to clear the rubble. These artifacts, the treasure, and whatever the Guardian is guarding, will ensure your safe departure.
+**Premise:** You are an explorer robot (tentative) and your task is to explore an abandoned cave - what appears to be a dungeon that holds many questions and you must collect the answers by acquiring artifacts. These artifacts will help you not only defeat the guardian of the AgonDray ruins but will also get you out of here, as you find yourself caved in from behind and whatever you have at your disposal alone is not enough to clear the rubble. These artifacts, the treasure, and whatever the Guardian is guarding, will ensure your safe departure. You also are not able to jump.
 
 **Level Details:**
 - 10- room dungeon that consists of square rooms.
@@ -17,10 +17,10 @@
 - Two of the 10 rooms should be isolated from the rest, and include one of two bosses or puzzles to complete the level
 - Level should make use of repeating elements
 
-**Game Controls:** The player is controlled by the WASD or arrow keys to move, space to jump, and the mouse to look around.
+**Game Controls:** The player is controlled by the WASD or arrow keys to move, and the mouse to look around.
 
-**Game Flow and Mechanics:** When the game starts the player will need to find their weapon to equip. The Player must move around the level battling enemies/puzzles in order to make their way to the final boss/treasure. When the time runs out, the player has defeated the bosses and won the treasure, or the player has lost all lives.
+**Game Flow and Mechanics:** When the game starts, the player is before the entrance of the dungeon with the entrance behind them caved in. They need to head through the level and acquire artifacts and avoid enemies (but they may have the chance to fight back) all throughout - up to and including the Guardian. The player is given as much time as needed as well as three lives. While the player has no checkpoints they do not need to restart the level all the way back unless they've lost all lives.
 
 # Credits
-* Barking Owl for some of the props and textures.
+* Barking Owl for props and textures.
 * Unity Technologies for the robot player.
