@@ -29,8 +29,12 @@
 
 # Credits
 * Barking Owl for props and textures.
-Unity Technologies:
+
+**Unity Technologies:**
+
 * Third Person Character Controller
 * Text Mesh Pro Assets
-Others:
+
+**Others:**
+
 * [Polyart RPG Monsters](https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762) by Dungeon Mason
