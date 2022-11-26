@@ -13,7 +13,7 @@
 **Level Details:**
 - 10-room dungeon that consists of square rooms.
 - Rooms are connected by hallways.
-- Entrances to rooms are set up to have doors.
+- Rooms/hallways are separated by doors (with one exception).
 - The final room contains a boss which must be defeated in an indirect way while it chases you, if it sees you.
 - The fifth room likewise contains a larger enemy, but is defeated more simply by collecting the relic in the room. This enemy also does not track you, but it's big and bulky.
 - The transition from the 7th to 8th rooms is marked by a simple puzzle.
