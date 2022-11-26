@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 25 November 2022
+ * Modified: 26 November 2022
  * Description: Manages the UI for the game
  ***/
 
@@ -40,7 +40,7 @@ public class CanvasManager : MonoBehaviour
         SetStats();
 
         if (relicTextbox) { relicTextbox.text = "Relics " + relics + " / 5"; }
-        if (healthTextbox) { healthTextbox.text = "Can take " + hp + " more hits"; }
+        if (healthTextbox) { healthTextbox.text = "Robot Integrity: " + hp; }
         NotEnough();
     }
 
