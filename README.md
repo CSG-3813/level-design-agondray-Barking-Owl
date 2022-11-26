@@ -32,8 +32,9 @@
 
 **Unity Technologies:**
 
-* Third Person Character Controller
+* [Third Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)
 * Text Mesh Pro Assets
+* [Kyle the Robot](https://assetstore.unity.com/packages/3d/characters/robots/space-robot-kyle-4696)
 
 **Others:**
 
