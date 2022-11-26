@@ -25,6 +25,7 @@ public class FalseWall : MonoBehaviour
         
     }
 
+    //May have it slide back and then either right or left
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(TargetTag))

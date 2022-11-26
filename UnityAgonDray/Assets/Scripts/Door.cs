@@ -13,11 +13,15 @@ public class Door : MonoBehaviour
 {
     public string TargetTag = "Player";
     public int relicsNeeded; //Amount of relics needed to open this door, by default 0
+    public static bool flag; 
+
     Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
+        flag = false;
     }
 
     // Update is called once per frame
@@ -37,6 +41,7 @@ public class Door : MonoBehaviour
             else
             {
                 Debug.Log("Not enough relics!"); //Should also pop up a message on UI
+                flag = true;
             }
         }
     }
@@ -47,6 +52,8 @@ public class Door : MonoBehaviour
         {
             anim.SetTrigger("Close");
         }
+
+        flag = false;
     }
 
 

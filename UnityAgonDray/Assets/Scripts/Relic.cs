@@ -30,6 +30,7 @@ public class Relic : MonoBehaviour
         if (other.CompareTag(TargetTag))
         {
             GameManager.relics++;
+            GameManager.health++;
             Debug.Log("Relic found! Relics found so far: " + GameManager.relics);
             Destroy(gameObject);
         }
