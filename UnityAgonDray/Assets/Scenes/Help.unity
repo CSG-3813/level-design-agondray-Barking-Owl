@@ -187,8 +187,9 @@ MonoBehaviour:
     are WASD to move, and shift to sprint. You cannot jump, but you can tread where
     the water lies. The relics are glowing, green, and they spin. Per each point
     of integrity, you can gain one more by collecting a relic, and each point allows
-    you to survive a single hit, expending that point.\n\nCredits for free assets
-    - models, animations, sounds, music, etc., are in the Itch.io description."
+    you to survive a single hit, expending that point and granting you a brief protection
+    against further exposure to the guardians.\n\nCredits for free assets - models,
+    animations, sounds, music, etc., are in the Itch.io description."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -670,7 +671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -142}
+  m_AnchoredPosition: {x: 0, y: -156}
   m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1377590289

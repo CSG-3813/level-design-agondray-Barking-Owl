@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     static public int relics; //The relics the player collected so far
     static public int health; //How many hits the player takes before gameover
     static public bool won = false; //Did the player win. By default it is false.
-    static public bool invincible = false; //I-Frames after taking damage
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +26,8 @@ public class GameManager : MonoBehaviour
     public static void LoseHealth()
     {
         health--; //Should also give the player a grace period before they can lose health again
-
     }
+
 
     // Update is called once per frame
     void Update()
