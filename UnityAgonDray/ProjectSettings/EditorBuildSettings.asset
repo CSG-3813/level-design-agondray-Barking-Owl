@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GreyBox.unity
     guid: fb4238383524bc14cbba40075f849ecb
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b614ec82f42faf74c82957bb1190d5ee
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 6e989cb4c2a156f428c48c846b5d87c1
+  - enabled: 1
     path: Assets/Scenes/Staging.unity
     guid: 95a232a59264ef94bbb2162ce3eae320
   m_configObjects: {}

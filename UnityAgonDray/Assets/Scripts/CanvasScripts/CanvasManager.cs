@@ -39,7 +39,7 @@ public class CanvasManager : MonoBehaviour
     {
         SetStats();
 
-        if (relicTextbox) { relicTextbox.text = "Relics " + relics + " / 5"; }
+        if (relicTextbox) { relicTextbox.text = "Relics: " + relics + " / 5"; }
         if (healthTextbox) { healthTextbox.text = "Robot Integrity: " + hp; }
         NotEnough();
     }
@@ -51,7 +51,7 @@ public class CanvasManager : MonoBehaviour
     }
     public void NotEnough()
     {
-        if (Door.flag == true)
+        if (DoubleDoor.flag == true)
         {
             messageTextbox.text = "Not enough relics!";
         }

@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 25 November 2022
+ * Modified: 26 November 2022
  * Description: Manages door behavior
  ***/
 
@@ -20,7 +20,7 @@ public class DoubleDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponentsInChildren<Animator>();
+        anim = GetComponentsInChildren<Animator>(); //Two doors so get both animators
         flag = false;
     }
 
