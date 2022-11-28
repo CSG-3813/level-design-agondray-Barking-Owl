@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 27 November 2022
+ * Modified: 28 November 2022
  * Description: Manages the relics and health of the player, and decides gameover
  ***/
 
@@ -46,6 +46,13 @@ public class GameManager : MonoBehaviour
     //If the player defeated the boss then they've won, otherwise they lost and take them to the loss screen
     public static void GameOver()
     {
-        SceneManager.LoadScene("Menu");
+        if (won == true)
+        {
+            SceneManager.LoadScene("End");
+        }
+        else
+        {
+            SceneManager.LoadScene("Loss");
+        }
     }
 }

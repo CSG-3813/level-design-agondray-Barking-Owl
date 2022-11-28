@@ -33,6 +33,7 @@ public class FinalRelic : MonoBehaviour
             GameManager.health++;
             Debug.Log("Relic found! Relics found so far: " + GameManager.relics);
             Destroy(gameObject);
+            GameManager.won = true;
             GameManager.GameOver();
         }
     }
