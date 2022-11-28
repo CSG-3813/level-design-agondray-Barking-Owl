@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     }
 
     //If the player defeated the boss then they've won, otherwise they lost and take them to the loss screen
-    void GameOver()
+    public static void GameOver()
     {
         SceneManager.LoadScene("Menu");
     }
