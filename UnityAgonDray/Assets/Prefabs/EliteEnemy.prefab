@@ -577,7 +577,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.5
+  m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5513542522442304648
 MonoBehaviour:
@@ -594,6 +594,10 @@ MonoBehaviour:
   EyePoint: {fileID: 5198158180324914827}
   TargetTag: Player
   FieldOfView: 90
+  projectilePrefab: {fileID: 5590596387853923075, guid: a3dcd1b7d2a5055409e195b1d2b6569a,
+    type: 3}
+  projectile: {fileID: 0}
+  projectileRB: {fileID: 0}
 --- !u!195 &4467145717766257750
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -36,6 +36,7 @@ public class DoubleDoor : MonoBehaviour
         {
             if (GameManager.relics >= relicsNeeded)
             {
+                Debug.Log("Doors opening");
                 anim[0].SetTrigger("Open");
                 anim[1].SetTrigger("Open");
             }
