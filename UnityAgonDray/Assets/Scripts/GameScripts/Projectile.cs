@@ -2,7 +2,7 @@
  * Author: Andrew Nguyen
  * Created: 28 November 2022
  * Modified: 28 November 2022
- * Description: Manages the projectile itself
+ * Description: Manages the projectile itself (may also function as a mine)
  ***/
 
 using System.Collections;
@@ -42,6 +42,7 @@ public class Projectile : MonoBehaviour
             if (invincible == false)
             {
                 GameManager.LoseHealth();
+                DestroySelf();
             }
         }
         StartCoroutine("Invulnerable");
