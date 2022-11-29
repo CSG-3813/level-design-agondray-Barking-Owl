@@ -39,3 +39,6 @@
 **Others:**
 
 * [Polyart RPG Monsters](https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762) by Dungeon Mason
+* [The Complex](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300025) by Kevin MacLeod licensed under Creative Commons: By Attribution 3.0
+* [Elevator Sound](https://freesound.org/people/ToniTobe/sounds/233307/) by ToniTobe
+* [Toon Thud](https://freesound.org/people/GWMX_YOUTUBE03/sounds/339114/) by GWMX_YOUTUBE03
