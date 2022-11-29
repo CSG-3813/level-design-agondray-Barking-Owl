@@ -6,11 +6,13 @@ public class BossField : MonoBehaviour
 {
     public GameObject Stone;
     public Animator StoneAnimator;
+    public AudioSource StoneSound;
 
     // Start is called before the first frame update
     void Start()
     {
         StoneAnimator = Stone.GetComponent<Animator>();
+        StoneSound = Stone.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class BossField : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             StoneAnimator.SetTrigger("Block");
+            StoneSound.Play();
             Destroy(gameObject);
         }
     }

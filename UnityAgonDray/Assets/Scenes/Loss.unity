@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c935ebea0914d014c930bb66c36d927e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: Staging
+  levelName: Level
   helpScreen: Help
 --- !u!1 &1581286808
 GameObject:

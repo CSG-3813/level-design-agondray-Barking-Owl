@@ -36,11 +36,11 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Hit an enemy's projectile");
         if (other.CompareTag("Player"))
         {
             if (invincible == false)
             {
+                Debug.Log("Hit an enemy's projectile"); 
                 GameManager.LoseHealth();
                 DestroySelf();
             }

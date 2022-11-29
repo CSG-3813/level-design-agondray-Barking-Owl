@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 26 November 2022
+ * Modified: 28 November 2022
  * Description: Manages door behavior
  ***/
 
@@ -13,13 +13,16 @@ public class DoubleDoor : MonoBehaviour
 {
     public string TargetTag = "Player";
     public int relicsNeeded; //Amount of relics needed to open this door, by default 0
-    public static bool flag; 
+    public static bool flag;
+
+    public AudioSource audioSrc;
 
     Animator[] anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSrc = GetComponent<AudioSource>();
         anim = GetComponentsInChildren<Animator>(); //Two doors so get both animators
         flag = false;
     }
@@ -37,6 +40,7 @@ public class DoubleDoor : MonoBehaviour
             if (GameManager.relics >= relicsNeeded)
             {
                 Debug.Log("Doors opening");
+                audioSrc.Play();
                 anim[0].SetTrigger("Open");
                 anim[1].SetTrigger("Open");
             }
@@ -54,6 +58,7 @@ public class DoubleDoor : MonoBehaviour
         {
             anim[0].SetTrigger("Close");
             anim[1].SetTrigger("Close");
+            audioSrc.Play();
         }
 
         flag = false;

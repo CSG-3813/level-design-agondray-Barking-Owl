@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 25 November 2022
+ * Modified: 28 November 2022
  * Description: Manages relic
  ***/
 
@@ -12,11 +12,11 @@ using UnityEngine;
 public class Relic : MonoBehaviour
 {
     public string TargetTag = "Player";
-    
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -24,6 +24,7 @@ public class Relic : MonoBehaviour
     {
         
     }
+
 
     private void OnTriggerEnter(Collider other)
     {

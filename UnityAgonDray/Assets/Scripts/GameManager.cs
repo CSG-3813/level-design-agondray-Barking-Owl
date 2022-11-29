@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     static public int health; //How many hits the player takes before gameover
     static public bool won = false; //Did the player win. By default it is false.
 
+
     // Start is called before the first frame update
     void Start()
     {
