@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 25 November 2022
+ * Modified: 30 November 2022
  * Description: Manages the start menu of the game
  ***/
 
@@ -19,13 +19,22 @@ public class StartCanvas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     public void GameStart()

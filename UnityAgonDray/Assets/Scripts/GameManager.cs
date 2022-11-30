@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 28 November 2022
+ * Modified: 30 November 2022
  * Description: Manages the relics and health of the player, and decides gameover
  ***/
 
@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     {
         relics = 0;
         health = 1;
+        Cursor.visible = false;
     }
 
     public static void LoseHealth()
@@ -34,6 +35,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         GameOverCheck();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void GameOverCheck()
