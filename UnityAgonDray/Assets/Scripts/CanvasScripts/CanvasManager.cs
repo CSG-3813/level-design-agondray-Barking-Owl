@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 26 November 2022
+ * Modified: 1 December 2022
  * Description: Manages the UI for the game
  ***/
 
@@ -60,4 +60,5 @@ public class CanvasManager : MonoBehaviour
             messageTextbox.text = "";
         }
     }
+
 }

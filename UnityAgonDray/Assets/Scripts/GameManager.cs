@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 30 November 2022
+ * Modified: 1 December 2022
  * Description: Manages the relics and health of the player, and decides gameover
  ***/
 
@@ -14,15 +14,17 @@ public class GameManager : MonoBehaviour
 {
     static public int relics; //The relics the player collected so far
     static public int health; //How many hits the player takes before gameover
-    static public bool won = false; //Did the player win. By default it is false.
+    static public bool won; //Did the player win. By default it is false.
 
 
     // Start is called before the first frame update
     void Start()
     {
+        won = false;
         relics = 0;
         health = 1;
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public static void LoseHealth()
@@ -46,6 +48,7 @@ public class GameManager : MonoBehaviour
     {
         if (health <= 0)
         {
+            won = false;
             GameOver();
         }
     }

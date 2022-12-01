@@ -184,11 +184,12 @@ MonoBehaviour:
   m_text: "You are an explorer robot trapped inside a cave whilst searching for the
     lost treasure of Agondray. Your goal is three-fold: To find the relics hidden
     within the ruins, defeat the Guardian, and to flee safely. \n\nYour controls
-    are WASD to move, and shift to sprint. You cannot jump, but you can tread where
-    the water lies. The relics are glowing, green, and they spin. Per each point
-    of integrity, you can gain one more by collecting a relic, and each point allows
-    you to survive a single hit, expending that point and granting you a brief protection
-    against further exposure to the guardian slimes. "
+    are WASD (or arrow keys) to move, and shift to sprint. You cannot jump, but you
+    can tread where the water lies. The relics are glowing, green, and they spin.
+    Per each point of integrity, you can gain one more by collecting a relic, and
+    each point allows you to survive a single hit, expending that point and granting
+    you a brief protection against further exposure to the guardian slimes. \n\nAt
+    any time, press escape to exit the game."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -215,8 +216,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
