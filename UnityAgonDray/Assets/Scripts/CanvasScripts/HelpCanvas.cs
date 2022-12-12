@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 26 November 2022
- * Modified: 30 November 2022
+ * Modified: 12 December 2022
  * Description: Manages the help menu of the game
  ***/
 
@@ -16,10 +16,24 @@ public class HelpCanvas : MonoBehaviour
     public string menuName;
     public string otherMenuName;
 
-    private void Start()
+    void Start()
     {
         Cursor.lockState = CursorLockMode.None;
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void BackMenu()
     {
         SceneManager.LoadScene(menuName);
