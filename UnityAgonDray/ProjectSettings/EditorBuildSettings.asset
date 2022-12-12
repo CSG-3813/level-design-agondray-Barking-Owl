@@ -5,7 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GreyBox.unity
     guid: fb4238383524bc14cbba40075f849ecb
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b614ec82f42faf74c82957bb1190d5ee
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 6e989cb4c2a156f428c48c846b5d87c1
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: ad761e77a2f10f940a7b3a22207aee6e
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 95a232a59264ef94bbb2162ce3eae320
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 5a3a1a2b8ecc84c4db0347ad339a812d
+  - enabled: 1
+    path: Assets/Scenes/Loss.unity
+    guid: b98db23d5d236604697e945cc5258734
   m_configObjects: {}
