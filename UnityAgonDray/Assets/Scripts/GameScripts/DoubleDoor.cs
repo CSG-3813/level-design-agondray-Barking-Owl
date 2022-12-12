@@ -1,7 +1,7 @@
 /***
  * Author: Andrew Nguyen
  * Created: 25 November 2022
- * Modified: 28 November 2022
+ * Modified: 12 December 2022
  * Description: Manages door behavior
  ***/
 
@@ -58,7 +58,6 @@ public class DoubleDoor : MonoBehaviour
         {
             anim[0].SetTrigger("Close");
             anim[1].SetTrigger("Close");
-            audioSrc.Play();
         }
 
         flag = false;
