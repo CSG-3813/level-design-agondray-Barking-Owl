@@ -18,7 +18,7 @@
 - 10-room dungeon that consists of square rooms.
 - Rooms are connected by hallways.
 - Rooms/hallways are separated by doors (with one exception).
-- The final room contains a boss.
+- The final room contains a boss. Since there is no combat mechanic this enemy is meant to be avoided, but is distinguished by its size and its speed, as well as being accompanied by two minions.
 - The fifth room likewise contains a larger enemy, but is defeated more simply by collecting the relic in the room. 
 - The transition from the 7th to 8th rooms is marked by a simple puzzle.
 - Level make use of repeating elements such as pillars or light rods.
