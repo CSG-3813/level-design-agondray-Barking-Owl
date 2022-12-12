@@ -8,11 +8,11 @@
 
 **Game Concept:** A 3D, third-person adventure game, in which the player moves around a castle dungeon battling enemies and bosses as they make their way to find stolen treasure. The objective may change in which the player must acquire relics in order to discover the secret behind the dragon's dungeon.
 
-**Premise:** You are an explorer robot and your task is to explore an abandoned cave - what appears to be a dungeon that holds many questions and you must collect the answers by acquiring artifacts. These artifacts will help you not only defeat the guardian of the AgonDray ruins but will also get you out of here, as you find yourself caved in from behind and whatever you have at your disposal alone is not enough to clear the rubble. These artifacts, the treasure, and whatever the Guardian is guarding, will ensure your safe departure. Your robot is not able to jump - and as it is for exploration purposes only, it's also not able to fight back, you must use its motors to avoid enemies and defeat the Guardian in an unconventional manner.
+**Premise:** You are an explorer robot and your task is to explore an abandoned cave - what appears to be a dungeon that holds many questions and you must collect the answers by acquiring artifacts. These artifacts will help you not only defeat the guardian of the AgonDray ruins but will also get you out of here, as you find yourself caved in from behind and whatever you have at your disposal alone is not enough to clear the rubble. These artifacts, and whatever the Guardian is guarding, will ensure your safe departure. Your robot is not able to jump - and as it is for exploration purposes only, it's also not able to fight back, you must use its motors to avoid enemies and defeat the Guardian in an unconventional manner.
 
 **Objectives:**
 - Main Objective: Collect the relics and get out of the cave safely. These relics are keys and also seem to invigorate the robot with no cost if the robot is hit - that is, the robot will not lose relics if they're hit.
-- Sub-Objectives: Avoid the Guardian's minions. 
+- Sub-Objectives: Avoid the Guardian's minions and the Guardian itself.
 
 **Level Details:**
 - 10-room dungeon that consists of square rooms.
